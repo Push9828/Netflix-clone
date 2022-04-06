@@ -1,14 +1,13 @@
-import {JumbotronContainer} from "./containers/jumbotron";
-import {FooterContainer} from "./containers/footer";
+import { JumbotronContainer } from "./containers/jumbotron";
+import { FooterContainer } from "./containers/footer";
+import { FaqContainer } from "./containers/faq";
 
-function App() {
-    return (
-        <>
-            <JumbotronContainer/>
-            <FooterContainer/>
-        </>
-
-    );
+export default function App() {
+  return (
+    <>
+      <JumbotronContainer />
+      <FaqContainer />
+      <FooterContainer />
+    </>
+  );
 }
-
-export default App;
